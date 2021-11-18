@@ -63,7 +63,7 @@ premain 方法，从字面上理解，就是运行在 main 函数之前的的类
 
 1) 目录结构
 
-<img src="./image-20211118101400477.png" alt="image-20211118101400477" align='left' style="zoom: 33%;" />  
+<img src="./image-20211118101400477.png" alt="image-20211118101400477" align='left' style=' width:300px;height:100 px' /> <br>  
 
 
 
@@ -133,7 +133,7 @@ public class JpAgent {
 
 #### 再来实现agent 目标工程。
 
-<img src="./image-20211118103211974.png" alt="image-20211118103211974"  align="left" style=' width:300px;height:100 px'/>  
+<img src="./image-20211118103211974.png" alt="image-20211118103211974"  align="left" style=' width:300px;height:100 px'/>  <br/>
 
 
 
@@ -166,7 +166,9 @@ public class Main {
 
 1) 把构建好的jar 放到同一文件夹下
 
-<img src="./image-20211118103515152.png" alt="image-20211118103515152" align="left" style=' width:300px;height:100 px' />
+<img src="./image-20211118103515152.png" alt="image-20211118103515152" align="left" style=' width:300px;height:100 px' /><br/>
+
+
 
 2) 进入到test目录执行java命令
 
@@ -176,7 +178,9 @@ java -javaagent:java-agent-1.0-SNAPSHOT.jar -cp agent-target-1.0-SNAPSHOT.jar co
 
 3 结果
 
-<img src="./image-20211118103746619.png" alt="image-20211118103746619" style=' width:300px;height:100 px' align="left" />
+<img src="./image-20211118103746619.png" alt="image-20211118103746619" style=' width:300px;height:100 px' align="left" /><br/>
+
+
 
 ### addTransformer方法
 
