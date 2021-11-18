@@ -154,7 +154,7 @@ public class Main {
 
 1) 把构建好的jar 放到同一文件夹下
 
-2) <div align="left"><img width="400" height="60" src="./image-20211118103515152.png"/></div>
+<div align="left"><img width="400" height="60" src="./image-20211118103515152.png"/></div>
 
 2) 进入到test目录执行java命令
 
