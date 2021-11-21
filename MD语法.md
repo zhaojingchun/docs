@@ -4,9 +4,9 @@
 
 #### 图片左对齐
 
-```html
-<img  align='left' 左对齐  style="zoom: 33%;" 缩放 />
-```
+<div align="left"><img width="65" height="75" src="https://raw.githubusercontent.com/mzlogin/mzlogin.github.io/master/images/posts/markdown/demo.png"/></div>
+
+
 
 
 

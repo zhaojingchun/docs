@@ -253,6 +253,8 @@ java -javaagent:java-agent-1.0-SNAPSHOT.jar -cp agent-target-1.0-SNAPSHOT.jar co
 
 ## JVM启动后动态Instrument
 
+demo ：https://cloud.tencent.com/developer/article/1813421
+
 上面介绍的Instrumentation是在JDK1.5中提供的，开发者只能在main加载之前添加手脚，在Java SE 6的Instrumentation当中，提供了一个新的代理操作方法：agentmain，可以在main函数开始运行之后再运行。
 
 跟premain函数一样，开发者可以编写一个含有agentmain函数的Java类：
@@ -345,6 +347,8 @@ list()方法会去寻找当前系统中所有运行着的JVM进程，你可以�
 运行main方法的输出为：
 
 ### demo
+
+[推荐](https://mp.weixin.qq.com/s?__biz=MzkyMjIzOTQ3NA==&mid=2247484609&idx=1&sn=8bd852871d656f5a5dcb216f810a273f&source=41#wechat_redirect)
 
 #### [java 调用链路](https://juejin.cn/post/6844903906913288199)
 
