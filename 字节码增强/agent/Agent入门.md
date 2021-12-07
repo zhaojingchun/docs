@@ -356,6 +356,10 @@ list()方法会去寻找当前系统中所有运行着的JVM进程，你可以�
 
 [免费激活](https://juejin.cn/post/6944881900636864526)
 
+[耗时](https://mp.weixin.qq.com/s?__biz=MzkyMjIzOTQ3NA==&mid=2247484609&idx=1&sn=8bd852871d656f5a5dcb216f810a273f&chksm=c1f62c5cf681a54a277ecd53779eb3a310ff06f55199268b8670b579f09c20330f2f3504983d&scene=178&cur_album_id=1856032411935932418#rd)
+
+[jvm_sandbox](https://www.infoq.cn/article/tsy4lgjvsfweuxebw*gp)
+
 ### Q&A
 
 Instrument premain、agentmain方法执行时机？

@@ -53,6 +53,12 @@ Swagger 有几个主要的产品。
   <artifactId>springfox-swagger2</artifactId>
   <version>2.9.0</version>
 </dependency>
+新的ui页面 [swagger ui 访问地址](http://localhost:8080/doc.html)
+<dependency>
+    <groupId>com.github.xiaoymin</groupId>
+    <artifactId>swagger-bootstrap-ui</artifactId>
+    <version>1.9.6</version>
+</dependency>
 ```
 
 3.2、配置 Springfox-swagger
@@ -104,7 +110,14 @@ public class SwaggerConfig {
 }
 ```
 
-#### 3.3. 代码编写
+#### 3.3 properties 配置
+
+```properties
+swagger:
+  enable: true
+```
+
+#### 3.4. 代码编写
 
 文章不会把所有代码一一列出来，这没有太大意义，所以只贴出主要代码，完整代码会上传到 Github，并在文章底部附上 Github 链接。
 
