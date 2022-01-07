@@ -26,6 +26,8 @@ tree 命令
 
 https://blog.csdn.net/wisgood/article/details/38942449
 
+
+
  jps –l
 
 

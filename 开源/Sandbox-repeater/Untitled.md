@@ -2,6 +2,10 @@
 
 
 
+```shell
+-javaagent:${HOME}/sandbox/lib/sandbox-agent.jar=server.port=10088;server.ip=0.0.0.0 -Dapp.name=solution -Dapp.env=day
+```
+
 
 
 #### 视频资料

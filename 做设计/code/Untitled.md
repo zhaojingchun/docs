@@ -43,3 +43,12 @@ apache.commons.lang3
 ```
 MethodUtils
 ```
+
+
+
+只执行一次
+
+```
+private static AtomicBoolean initFlag = new AtomicBoolean();
+initFlag.compareAndSet(false, true)
+```
